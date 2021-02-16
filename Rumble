@@ -16,11 +16,11 @@ getgenv().PlayerHeight = -15 --[ adjust the height of yourself while your autofa
 getgenv().GameSettings = {
     AutoSell = {
         ["Cosmetic"] = true,
-        ["CosmeticRarity"] = {["Common"] = true, ["Unique"] = true, ["Rare"] = false, ["Epic"] = false},
+        ["CosmeticRarity"] = {["Common"] = true, ["Unique"] = true, ["Rare"] = true, ["Epic"] = false},
         ["Armor"] = true,
-        ["ArmorRarity"] = {["Common"] = true, ["Unique"] = true, ["Rare"] = false, ["Epic"] = false},
+        ["ArmorRarity"] = {["Common"] = true, ["Unique"] = true, ["Rare"] = true, ["Epic"] = false},
         ["Weapon"] = true,
-        ["WeaponRarity"] = {["Common"] = true, ["Unique"] = true, ["Rare"] = false, ["Epic"] = false},
+        ["WeaponRarity"] = {["Common"] = true, ["Unique"] = true, ["Rare"] = true, ["Epic"] = false},
         ["Ability"] = true
     }
 }
